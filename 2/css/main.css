@@ -1,0 +1,22 @@
+.orbit-slide-number {
+  visibility: hidden;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.button {
+  text-decoration: none;
+}
+p.tlo {
+  text-align: justify;
+}
+.itc {
+  text-align: center;
+}
+#foxyform_embed_link_60209 {
+  display: none !important;
+}
+iframe {
+  height: 450px;
+  margin: 0 30%;
+}
