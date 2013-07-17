@@ -20,6 +20,22 @@ iframe {
   height: 450px;
   margin: 0 30%;
 }
-#hck {
-  background-color: #000;
+.hck {
+  background: #477289;
+}
+#hck-tb {
+  height: 80px;
+}
+#hck-tb .top-bar-section li a:not(.button) {
+  line-height: 80px;
+  background: #477289;
+}
+#hck-tb .top-bar-section li a:hover {
+  color: #8AC643;
+  text-decoration: none;
+  border-bottom: 2px solid #8AC643;
+  line-height: 78px;
+}
+#footer-wrap {
+  background: #DDD;
 }

@@ -21,21 +21,21 @@
 
 </head>
 <body>
-  <div id="hck">
-    <div class="row">
-      <div class="large-3 columns">
+  <div class="contain-to-grid hck">
+    <nav class="top-bar hck" id="hck-tb">
+      <ul class="title-area">
         <h1><a href="/2/" title="Página inicial"><img src="../img/logo.png" /></a></h1>
-      </div>
-      <div class="large-9 columns">
-          <ul class="right button-group">
-          <li><a href="/2/" class="button" title="Página inicial">Home</a></li>
-          <li><a href="/2/empresa" class="button disabled" title="Sobre a empresa">Empresa</a></li>
-          <li><a href="/2/servicos" class="button" title="Nossos serviços">Serviços</a></li>
-          <li><a href="/2/clientes" class="button" title="Nossos clientes">Clientes</a></li>
-          <li><a href="/2/contato" class="button" title="Fale conosco">Contato</a></li>
+      </ul>
+      <section class="top-bar-section">
+          <ul class="right">
+            <li><a href="/2/" title="Página inicial">Home</a></li>
+            <li><a href="/2/empresa" title="Sobre a empresa">Empresa</a></li>
+            <li><a href="/2/servicos" title="Nossos serviços">Serviços</a></li>
+            <li><a href="/2/clientes" title="Nossos clientes">Clientes</a></li>
+            <li><a href="/2/contato" title="Fale conosco">Contato</a></li>
           </ul>
-      </div>
-    </div>
+      </section>
+    </nav>
   </div>
   
 <!-- End Header and Nav -->
@@ -89,26 +89,27 @@
   </div>
 
   <!-- Footer -->
-  
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr />
-      <div class="row">
-        <div class="large-6 columns">
-          <p>&copy; 2013 Brasil Serviços. Rua Dr. Zamenrof, 111<br />Boa Viagem - Recife - PE &#124; CEP: 51030-790<br />Fones: (081) 3035 0502 - 3048 0891</p>
+  <div id="footer-wrap"> 
+    <footer class="row">
+      <div class="large-12 columns">
+        <hr />
+        <div class="row">
+          <div class="large-6 columns">
+            <p>&copy; 2013 Brasil Serviços. Rua Dr. Zamenrof, 111<br />Boa Viagem - Recife - PE &#124; CEP: 51030-790<br />Fones: (081) 3035 0502 - 3048 0891</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="/2/" title="Página inicial">Home</a></li>
+              <li><a href="/2/empresa" title="Sobre a empresa">Empresa</a></li>
+              <li><a href="/2/servicos" title="Nossos serviços">Serviços</a></li>
+              <li><a href="/2/clientes" title="Nossos clientes">Clientes</a></li>
+              <li><a href="/2/contato" title="Fale conosco">Contato</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="/2/" title="Página inicial">Home</a></li>
-            <li><a href="/2/empresa" title="Sobre a empresa">Empresa</a></li>
-            <li><a href="/2/servicos" title="Nossos serviços">Serviços</a></li>
-            <li><a href="/2/clientes" title="Nossos clientes">Clientes</a></li>
-            <li><a href="/2/contato" title="Fale conosco">Contato</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </footer>
+      </div> 
+    </footer>
+  </div>
 
   <script>
   document.write('<script src=../js/vendor/' +
