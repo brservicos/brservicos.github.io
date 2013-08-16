@@ -21,20 +21,21 @@
 
 </head>
 <body>
-
-  <div class="row">
-    <div class="large-3 columns">
-      <h1><a href="/" title="Página inicial"><img src="../img/logo.png" /></a></h1>
-    </div>
-    <div class="large-9 columns">
-    	<ul class="right button-group">
-    	<li><a href="/" class="button" title="Página inicial">Home</a></li>
-    	<li><a href="/empresa" class="button" title="Sobre a empresa">Empresa</a></li>
-    	<li><a href="/servicos" class="button disabled" title="Nossos serviços">Serviços</a></li>
-    	<li><a href="/clientes" class="button" title="Nossos clientes">Clientes</a></li>
-    	<li><a href="/contato" class="button" title="Fale conosco">Contato</a></li>
-    	</ul>
-  </div>
+  <div class="contain-to-grid hck">
+    <nav class="top-bar hck" id="hck-tb">
+      <ul class="title-area">
+        <h1><a href="/" title="Página inicial"><img src="../img/logo.png" /></a></h1>
+      </ul>
+      <section class="top-bar-section">
+          <ul class="right">
+            <li><a href="/" title="Página inicial">Home</a></li>
+            <li><a href="/empresa" title="Sobre a empresa">Empresa</a></li>
+            <li><a href="/servicos" title="Nossos serviços">Serviços</a></li>
+            <li><a href="/parceiros" title="Nossos parceiros">Parceiros</a></li>
+            <li><a href="/contato" title="Fale conosco">Contato</a></li>
+          </ul>
+      </section>
+    </nav>
   </div>
   
 <!-- End Header and Nav -->
@@ -58,15 +59,6 @@
         <li>Separador</li>
         <li>Conferente</li>
       </ul>
-      <h3>Limpeza de fachadas</h3>
-      <ul>
-        <li>Alpinismo Industrial</li>
-        <li>Tratamento com Hidrojato</li>
-        <li>Limpeza predial</li>
-        <li>Limpeza e reparo de rejuntes</li>
-      </ul>
-    </div>
-    <div class="large-6 columns">
       <h3>Jardinagem e Paisagismo</h3>
       <ul>
         <li>Plantação</li>
@@ -74,6 +66,8 @@
         <li>Poda</li>
         <li>Paisagismo</li>
       </ul>
+    </div>
+    <div class="large-6 columns">
       <h3>Condomínios</h3>
       <ul>
         <li>Limpador de piscinas</li>
@@ -119,26 +113,27 @@
   </div>
 
   <!-- Footer -->
-  
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr />
-      <div class="row">
-        <div class="large-6 columns">
-          <p>&copy; 2013 Brasil Serviços. Rua Dr. Zamenrof, 111<br />Boa Viagem - Recife - PE &#124; CEP: 51030-790<br />Fones: (081) 3035 0502 - 3048 0891</p>
+  <div id="footer-wrap">
+    <footer class="row">
+      <div class="large-12 columns">
+        <hr />
+        <div class="row">
+          <div class="large-6 columns">
+            <p>&copy; 2013 Brasil Serviços. Rua Dr. Zamenrof, 111<br />Boa Viagem - Recife - PE &#124; CEP: 51030-790<br />Fones: (081) 3035 0502 - 3048 0891</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="/" title="Página inicial">Home</a></li>
+              <li><a href="/empresa" title="Sobre a empresa">Empresa</a></li>
+              <li><a href="/servicos" title="Nossos serviços">Serviços</a></li>
+              <li><a href="/parceiros" title="Nossos parceiros">Clientes</a></li>
+              <li><a href="/contato" title="Fale conosco">Contato</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="/" title="Página inicial">Home</a></li>
-            <li><a href="/empresa" title="Sobre a empresa">Empresa</a></li>
-            <li><a href="/servicos" title="Nossos serviços">Serviços</a></li>
-            <li><a href="/clientes" title="Nossos clientes">Clientes</a></li>
-            <li><a href="/contato" title="Fale conosco">Contato</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </footer>
+      </div> 
+    </footer>
+  </div>
 
   <script>
   document.write('<script src=../js/vendor/' +
